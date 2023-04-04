@@ -195,7 +195,7 @@ top:170px;
       position:relative;
       min-width: 870px!important;
       left: -300px;
-      top: -70px;
+      top: -50px;
       z-index: 4000;
     }
     .flex-container {
@@ -240,7 +240,7 @@ top:170px;
       position:absolute;
       min-width: 100vw!important;
       z-index: 900;
-      top: -50px;
+      top: -10px;
       }
   }
 
