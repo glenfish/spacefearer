@@ -130,6 +130,10 @@ top:170px;
 }
 @media only screen and (min-width: 1536px) {
   /* large screens */
+  #starfield {
+    min-height:70vh!important;
+    max-height: 80vh; 
+  }
   #thetitle {
     position:relative;
     top: 10px;
@@ -167,6 +171,10 @@ top:170px;
   }
 @media only screen and (min-width: 1400px) and (max-width: 1535px) {
   /* large screens */
+  #starfield {
+    min-height:50vh!important;
+    max-height: 60vh; 
+  }
   #thetitle {
     position:relative;
     top: 10px;
@@ -205,6 +213,10 @@ top:170px;
 
   @media only screen and (min-width: 545px) and (max-width: 1399px){
     /* medium screens */
+    #starfield {
+      min-height:60vh!important;
+      max-height: 70vh; 
+    }
     #thetitle {
       position:relative;
       top: 10px;
@@ -233,6 +245,10 @@ top:170px;
 
 @media only screen and (max-width: 544px) {
   /* small screens */
+  #starfield {
+    min-height:100%!important;
+    max-height: 100%!important;
+  }
   #spaceman-1 {
 
     position:relative;
