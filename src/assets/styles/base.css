@@ -214,8 +214,8 @@ top:170px;
   @media only screen and (min-width: 545px) and (max-width: 1399px){
     /* medium screens */
     #starfield {
-      min-height:60vh!important;
-      max-height: 70vh; 
+      min-height:100%!important;
+    max-height: 100%!important;
     }
     #thetitle {
       position:relative;
@@ -224,7 +224,7 @@ top:170px;
     #spaceman-1 {
       position:relative;
       text-align: center;
-      top: 130px;
+      top: 170px;
       z-index:1;
       height:auto;
       max-width:80%!important;
@@ -233,6 +233,7 @@ top:170px;
       }
       #spaceman-1 img {
         min-width: 900px!important;
+        transform: rotate(130deg)!important;
       }
 
       #herosection {
@@ -250,10 +251,10 @@ top:170px;
     max-height: 100%!important;
   }
   #spaceman-1 {
-
+    left: -120px;
     position:relative;
     text-align: center;
-    top: 150px;
+    top: 190px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
@@ -262,6 +263,7 @@ top:170px;
     }
     #spaceman-1 img {
       min-width: 900px!important;
+      transform: rotate(290deg)!important;
     }
     #herosection {
       position: absolute;
