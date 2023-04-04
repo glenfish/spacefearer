@@ -124,7 +124,7 @@ html {
     overflow:hidden;
     /* margin: auto; */
     margin:  auto ;
-    background-image: url('./images/planet.jpg');
+    background-image: url('../images/planet.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
