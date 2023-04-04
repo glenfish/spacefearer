@@ -96,7 +96,11 @@ const {
                       {typeof callToAction2 === 'string' ? (
                         <Fragment set:html={callToAction2} />
                       ) : (
-                        <a style="z-index:900" class="btn w-full text-white dark:text-white" href={callToAction2?.href}>
+                        <a
+                          style="z-index:900"
+                          class="btn w-full bg-gray-800/30 text-white hover:text-gray-800 dark:text-white"
+                          href={callToAction2?.href}
+                        >
                           {callToAction2?.icon && (
                             <>
                               <Icon name={callToAction2.icon} class="w-5 h-5 mr-1 -ml-1.5" />{' '}
