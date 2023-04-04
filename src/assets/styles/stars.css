@@ -8,6 +8,7 @@ html {
 }
 
 #stars {
+  
   opacity: 0.5;
   width: 1px;
   height: 1px;
@@ -130,7 +131,7 @@ html {
   background-position: 50% 50%;
   background-size: cover;
   opacity: 1;
-
+  
   
   }
 
@@ -139,6 +140,8 @@ html {
     width: 100ch!important;
     /* max-height: 50vh!important; */
     left: 0px;
+    height: 700px!important;
+    overflow:hidden;
     
   }
 
@@ -147,6 +150,8 @@ html {
     width: 100ch!important;
     /* max-height: 50vh!important; */
     right: 0px;
-    
+    height: 700px!important;
+    overflow:hidden;
+    /* background-color: red; */
   }
 
