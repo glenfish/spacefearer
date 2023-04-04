@@ -142,7 +142,7 @@ top:170px;
   #spaceman-1 {
     position:relative;
     top: 0px;
-    z-index:1;
+    z-index:10000;
     height: 100%;
     left: -100px;
     scale: 0.8;
@@ -154,7 +154,7 @@ top:170px;
       position:relative;
       min-width: 870px!important;
       left: -300px;
-      top: -20px;
+      top: -60px;
       z-index: 4000;
     }
     .flex-container {
@@ -183,7 +183,7 @@ top:170px;
   #spaceman-1 {
     position:relative;
     top: -20px;
-    z-index:1;
+    z-index:10000;
     height: 100%;
     left: -80px;
     scale: 0.7;
@@ -195,7 +195,7 @@ top:170px;
       position:relative;
       min-width: 870px!important;
       left: -300px;
-      top: 20px;
+      top: -70px;
       z-index: 4000;
     }
     .flex-container {
@@ -224,7 +224,7 @@ top:170px;
     #spaceman-1 {
       position:relative;
       text-align: center;
-      top: 170px;
+      top: 220px;
       z-index:1;
       height:auto;
       max-width:80%!important;
@@ -240,7 +240,7 @@ top:170px;
       position:absolute;
       min-width: 100vw!important;
       z-index: 900;
-      top: -10px;
+      top: -50px;
       }
   }
 
@@ -254,30 +254,34 @@ top:170px;
     left: -120px;
     position:relative;
     text-align: center;
-    top: 190px;
+    top: 260px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
-    scale: 0.5;
+    scale: 0.43;
     
     }
     #spaceman-1 img {
-      min-width: 900px!important;
-      transform: rotate(290deg)!important;
+      min-width: 840px!important;
+      transform: rotate(260deg)!important;
     }
     #herosection {
       position: absolute;
       z-index: 900;
       top: -30px;
+      
     }
-   
+   #herocontainer {
+    width:100%!important;
+    padding:0px;
+   }
 
 }
 
 #herosection-bgnd {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.4);
   border:#141414 0px solid;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
   border-radius: 20px;
   padding:20px;
 }
@@ -313,4 +317,6 @@ top:170px;
   filter: drop-shadow(1px 1px 2px #d8d8d8);
 }
 
-  
+
+
+
