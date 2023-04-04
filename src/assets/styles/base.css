@@ -1,3 +1,8 @@
+html {
+  min-width: 100vw;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -33,7 +38,11 @@
   }
 }
 
-#header.scroll {
+/* #header.scroll {
+  @apply shadow-md md:shadow-lg bg-white md:bg-white/90 md:backdrop-blur-sm dark:bg-slate-900 dark:md:bg-slate-900/90;
+} */
+
+#header.myscroll {
   @apply shadow-md md:shadow-lg bg-white md:bg-white/90 md:backdrop-blur-sm dark:bg-slate-900 dark:md:bg-slate-900/90;
 }
 
@@ -59,3 +68,228 @@
 [data-aw-toggle-menu].expanded g > path:last-child {
   @apply rotate-45 translate-y-[-8px] translate-x-[14px];
 }
+
+#logo {
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+  -webkit-filter: drop-shadow(1px 1px 2px #3d3d3d);
+  filter: drop-shadow(1px 1px 2px #3d3d3d);
+  width: 200px;
+}
+#curvedlines1 {
+top:170px;
+  position: absolute;
+  width: 100%;
+  z-index:-10;
+}
+
+#curvedlines2 {
+  top:80px;
+  left: 80px;
+    position: absolute;
+    width: 100%;
+    z-index:-11;
+  }
+  #image-container-1 {
+  background-image: url('../images/colors.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:100%;
+  width:100%;
+  transform: rotate(-15deg);
+  }
+
+  #stepnumber {
+    position:absolute;
+  }
+
+
+
+
+.floating { 
+  animation: floating 25s infinite ease-in-out;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  10% { transform:  scaleX(1) scaleY(1);}
+  20% { transform: rotate(-3deg);}
+  30%  { transform: translate(0, 5px);}
+  40% { transform: scaleX(1.02) scaleY(1.0);}
+  50% { transform: rotate(3deg); }
+  60%   { transform: translate(0, 0px); }
+  70% { transform: scaleX(1) scaleY(1);}
+  85% { transform: scaleX(1.06) scaleY(1.06);}
+  100% { transform: rotate(0deg); }   
+
+}
+
+#thetitle {
+
+  color: #f15050;
+}
+@media only screen and (min-width: 1536px) {
+  /* large screens */
+  #thetitle {
+    position:relative;
+    top: 10px;
+    color: #f15050;
+  }
+  #spaceman-1 {
+    position:relative;
+    top: 0px;
+    z-index:1;
+    height: 100%;
+    left: -100px;
+    scale: 0.8;
+    }
+    #spaceman-1 img {
+      min-width: 760px!important;
+    }
+    #herosection {
+      position:relative;
+      min-width: 870px!important;
+      left: -300px;
+      top: -20px;
+      z-index: 4000;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: stretch;
+      align-content: stretch;
+    max-width: 1440px;
+    margin: auto;
+    z-index: 4000;
+    }
+  }
+@media only screen and (min-width: 1400px) and (max-width: 1535px) {
+  /* large screens */
+  #thetitle {
+    position:relative;
+    top: 10px;
+    color: #f15050;
+  }
+  #spaceman-1 {
+    position:relative;
+    top: -20px;
+    z-index:1;
+    height: 100%;
+    left: -80px;
+    scale: 0.7;
+    }
+    #spaceman-1 img {
+      min-width: 760px!important;
+    }
+    #herosection {
+      position:relative;
+      min-width: 870px!important;
+      left: -300px;
+      top: 20px;
+      z-index: 4000;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: stretch;
+      align-content: stretch;
+    max-width: 1440px;
+    margin: auto;
+    z-index: 4000;
+    }
+  }
+
+  @media only screen and (min-width: 545px) and (max-width: 1399px){
+    /* medium screens */
+    #thetitle {
+      position:relative;
+      top: 10px;
+    }
+    #spaceman-1 {
+      position:relative;
+      text-align: center;
+      top: 130px;
+      z-index:1;
+      height:auto;
+      max-width:80%!important;
+      scale: 0.5;
+      
+      }
+      #spaceman-1 img {
+        min-width: 900px!important;
+      }
+
+      #herosection {
+      position:absolute;
+      min-width: 100vw!important;
+      z-index: 900;
+      top: -10px;
+      }
+  }
+
+@media only screen and (max-width: 544px) {
+  /* small screens */
+  #spaceman-1 {
+
+    position:relative;
+    text-align: center;
+    top: 150px;
+    z-index:1;
+    height:auto;
+    /* overflow: hidden; */
+    scale: 0.5;
+    
+    }
+    #spaceman-1 img {
+      min-width: 900px!important;
+    }
+    #herosection {
+      position: absolute;
+      z-index: 900;
+      top: -30px;
+    }
+   
+
+}
+
+#herosection-bgnd {
+  background-color: rgba(0,0,0,0.3);
+  border:#141414 0px solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  padding:20px;
+}
+
+.herocontainer {
+  /* max-width:1460px; */
+  margin:  auto;
+  /* background-color: rgba(255, 152, 152, 0.3); */
+  min-height: 60vh!important;
+  
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+
+  
