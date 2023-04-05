@@ -375,7 +375,7 @@ top:170px;
     
     }
     #spaceman-1 img {
-      min-width: 840px!important;
+      min-width: 800px!important;
       transform: rotate(220deg)!important;
     }
     #herosection {
@@ -453,7 +453,7 @@ top:170px;
   #hero-title-2 {
     display:block;
     position:relative;
-    top:-25px;
+    top:-30px;
     font-size: 50px!important;
     line-height: 3.5rem!important;
   }
@@ -464,9 +464,9 @@ top:170px;
   #hero-subtitle-2 {
     display:block;
     font-size: 26px!important;
-    line-height: 3.0rem!important;
+    line-height: 2.5rem!important;
     letter-spacing: -2px;
-    padding-top: 10px;
+    padding-top: 5px;
     color: #f15050;
   }
   #hero-subtitle {
@@ -475,7 +475,7 @@ top:170px;
   }
   #protect-your-crypto {
     position:relative;
-    top: 10px;
+    top: -5px;
     max-width: 250px;
     margin: auto;
   }
