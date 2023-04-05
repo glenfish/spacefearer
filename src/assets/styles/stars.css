@@ -120,20 +120,20 @@ html {
 
   #starcontent {
     position:absolute;
-    width: 100ch!important;
+    width: 50%!important;
     /* max-height: 50vh!important; */
-    left: 0px;
-    height: 700px!important;
+    left: 0%;
+    height: 900px!important;
     overflow:hidden;
     
   }
 
   #starcontent2 {
     position:absolute;
-    width: 100ch!important;
+    width: 50%!important;
     /* max-height: 50vh!important; */
-    right: 0px;
-    height: 700px!important;
+    left: 50%;
+    height: 900px!important;
     overflow:hidden;
     /* background-color: red; */
   }
