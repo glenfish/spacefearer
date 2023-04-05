@@ -298,11 +298,13 @@ top:170px;
     #protect-your-crypto {
       position:relative;
       top: -12px;
+      margin: 10px;
     }
     
     #how-it-works {
       position:relative;
       top: -12px;
+      margin: 10px;
     }
   }
 
@@ -358,25 +360,29 @@ top:170px;
       min-width: 100vw!important;
       z-index: 900;
       top: -40px;
-      
       }
 
       #herosection-bgnd {
-        background-color: rgba(0,0,0,0.2)!important;
+        background-color: rgba(0,0,0,0.5)!important;
         border:#141414 0px solid;
         box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
         border-radius: 40px;
-        
+        min-width: 100%!important;
+    position:relative;
+    margin: auto;
+    left: -15px;
         
       }
       #protect-your-crypto {
         position:relative;
         top: -15px;
+        margin: 10px;
       }
       
       #how-it-works {
         position:relative;
         top: -15px;
+        margin: 10px;
       }
       
   }
@@ -431,13 +437,20 @@ top:170px;
    #herocontainer {
     width:100%!important;
     padding:0px;
+    min-width: 100vw!important;
+    position:relative;
+    left: -25px;
    }
    #herosection-bgnd {
-    background-color: rgba(0,0,0,0.4)!important;
+    background-color: rgba(0,0,0,0.5)!important;
     border:#141414 0px solid;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
     border-radius: 40px;
-    padding:20px;
+    padding: 20px;
+    min-width: 100vw!important;
+    position:relative;
+    left: -25px;
+    
   }
 }
 
@@ -517,7 +530,7 @@ top:170px;
   }
   #hero-subtitle {
     position:relative;
-    top: -30px;
+    top: -40px;
   }
   #protect-your-crypto {
     position:relative;
@@ -541,12 +554,12 @@ top:170px;
 /* button placement */
 #protect-your-crypto {
   position:relative;
-  top: -30px;
+  top: 25px;
 }
 
 #how-it-works {
   position:relative;
-  top: -17px;
+  top: -113px;
 }
 
 }
