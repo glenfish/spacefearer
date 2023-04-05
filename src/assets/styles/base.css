@@ -158,7 +158,7 @@ top:170px;
     left: 0%;
     top: -10%;
     position: absolute;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   #starfield {
@@ -237,7 +237,7 @@ top:170px;
     left: 8%;
     top: -5%;
     position: absolute;
-    opacity: 0.9;
+    opacity: 1;
   }
 
   #starfield {
@@ -390,7 +390,7 @@ top:170px;
     left: 45%;
     bottom: 10%;
     position: absolute;
-    opacity: 0.8;
+    opacity: 1;
   }
 
   #starfield {
@@ -561,7 +561,7 @@ top:170px;
   left: 35%;
   top: 30%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(3deg);
 }
 #aave {
@@ -573,7 +573,7 @@ top:170px;
   left: 20%;
   top: 40%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(-30deg);
 }
 #ada {
@@ -585,7 +585,7 @@ top:170px;
   left: 15%;
   top: 20%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(8deg);
 }
 #cspr {
@@ -597,7 +597,7 @@ top:170px;
   left: 60%;
   top: 20%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(-6deg);
 }
 #mana {
@@ -609,7 +609,7 @@ top:170px;
   left: 15%;
   top: 30%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(2deg);
 }
 #doge {
@@ -621,7 +621,7 @@ top:170px;
   left: 58%;
   top: 2%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(46deg);
 }
 #eth {
@@ -633,7 +633,7 @@ top:170px;
   left: 23%;
   top: 64%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(0deg);
 }
 #ltc {
@@ -645,7 +645,7 @@ top:170px;
   left: 32%;
   top: 38%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(-20deg);
 }
 #xmr {
@@ -657,7 +657,7 @@ top:170px;
   left: 56%;
   top: 20%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(13deg);
 }
 #shib {
@@ -669,7 +669,7 @@ top:170px;
   left: 52%;
   top: 32%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(-5deg);
 }
 #sol {
@@ -681,7 +681,7 @@ top:170px;
   left: 65%;
   top: 360%;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.9;
   transform: rotate(67deg);
 }
 #usd {
