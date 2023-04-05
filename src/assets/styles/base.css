@@ -1143,15 +1143,15 @@ top:170px;
 .animation-headline.slide b.is-visible {
   top: 0;
   opacity: 1;
-  -webkit-animation: slide-in 0.4s;
-  -moz-animation: slide-in 0.4s;
-  animation: slide-in 0.4s;
+  /* -webkit-animation: slide-in 0.0s;
+  -moz-animation: slide-in 0.0s;
+  animation: slide-in 0.0s; */
   text-align: center;
 }
 .animation-headline.slide b.is-hidden {
-  -webkit-animation: slide-out 0.2s;
-  -moz-animation: slide-out 0.2s;
-  animation: slide-out 0.2s;
+  /* -webkit-animation: slide-out 0.0s;
+  -moz-animation: slide-out 0.0s;
+  animation: slide-out 0.0s; */
 }
 
 .animation-words-wrapper {
