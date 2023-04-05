@@ -147,16 +147,18 @@ top:170px;
   background-size: cover;
   opacity: 1;
 }
+/* ******** wide screens ******************************************************** * */  
 @media only screen and (min-width: 1536px) {
   /* large screens */
 
   #crypto-canvas {
     /* background-color: blue; */
-    height: 800px;
-    width: 800px;
+    height: 1000px;
+    width: 1400px;
     left: 0%;
-    top: 0%;
+    top: -10%;
     position: absolute;
+    opacity: 0.8;
   }
 
   #starfield {
@@ -224,6 +226,7 @@ top:170px;
       top: -15px;
     }
   }
+/* ******** large screens ******************************************************** * */  
 @media only screen and (min-width: 1400px) and (max-width: 1535px) {
   /* large screens */
 
@@ -231,9 +234,10 @@ top:170px;
     /* background-color: blue; */
     height: 800px;
     width: 800px;
-    left: 4%;
-    top: 0%;
+    left: 8%;
+    top: -5%;
     position: absolute;
+    opacity: 0.9;
   }
 
   #starfield {
@@ -302,7 +306,7 @@ top:170px;
   }
 
 
-
+  /* ******** medium screens ******************************************************** * */
   @media only screen and (min-width: 465px) and (max-width: 1399px){
     /* medium screens */
 
@@ -340,7 +344,7 @@ top:170px;
       z-index:1;
       height:auto;
       max-width:80%!important;
-      scale: 0.45;
+      scale: 0.55;
       
       }
       #spaceman-1 img {
@@ -375,7 +379,7 @@ top:170px;
       }
       
   }
-
+/* ***************** small screens ******************************************************** */
 @media only screen and (max-width: 464px) {
   /* small screens */
 
@@ -383,9 +387,10 @@ top:170px;
     /* background-color: blue; */
     height: 450px;
     width: 300px;
-    left: 60%;
-    bottom: 0%;
+    left: 45%;
+    bottom: 10%;
     position: absolute;
+    opacity: 0.8;
   }
 
   #starfield {
@@ -427,7 +432,7 @@ top:170px;
     padding:0px;
    }
    #herosection-bgnd {
-    background-color: rgba(0,0,0,0.45)!important;
+    background-color: rgba(0,0,0,0.6)!important;
     border:#141414 0px solid;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
     border-radius: 40px;
@@ -722,10 +727,10 @@ top:170px;
   animation: float-8 25s infinite ease-in-out;
 }
 .float-9 { 
-  animation: float-9 25s infinite ease-in-out;
+  animation: float-9 55s infinite ease-in-out;
 }
 .float-10 { 
-  animation: float-10 25s infinite ease-in-out;
+  animation: spaceman-float 25s infinite ease-in-out;
 }
 .rotate-1 { 
   animation: rotate-1 25s infinite ease-in-out;
@@ -1001,12 +1006,84 @@ top:170px;
     transform: translate(-50%, -50%) translate3d(0, 0, 0) rotateZ(360deg);
   }
 }
+@keyframes float-9 {
+  0% {
+    transform: translateX(-5%) translateY(-5%) rotateZ(-4deg);
+  }
+  10% {
+    transform: translateX(5%) translateY(5%) rotateZ(4deg);
+  }
+  20% {
+    transform: translateX(-10%) translateY(-10%) rotateZ(-8deg);
+  }
+  30% {
+    transform: translateX(10%) translateY(10%) rotateZ(8deg);
+  }
+  40% {
+    transform: translateX(-15%) translateY(-15%) rotateZ(-12deg);
+  }
+  50% {
+    transform: translateX(15%) translateY(15%) rotateZ(12deg);
+  }
+  60% {
+    transform: translateX(-10%) translateY(-10%) rotateZ(-8deg);
+  }
+  70% {
+    transform: translateX(10%) translateY(10%) rotateZ(8deg);
+  }
+  80% {
+    transform: translateX(-5%) translateY(-5%) rotateZ(-4deg);
+  }
+  90% {
+    transform: translateX(5%) translateY(5%) rotateZ(4deg);
+  }
+  100% {
+    transform: translateX(0) translateY(0) rotateZ(0);
+  }
+}
+
 @keyframes rotate-1 {
   0% {
     transform: rotate(0);
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes spaceman-float {
+  0% {
+    transform: translate(-50%, -50%) rotate(-20deg) translateY(-10vh);
+  }
+  10% {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(-8vh);
+  }
+  20% {
+    transform: translate(-50%, -50%) rotate(20deg) translateY(-6vh);
+  }
+  30% {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(-4vh);
+  }
+  40% {
+    transform: translate(-50%, -50%) rotate(-20deg) translateY(-2vh);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(0);
+  }
+  60% {
+    transform: translate(-50%, -50%) rotate(20deg) translateY(2vh);
+  }
+  70% {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(4vh);
+  }
+  80% {
+    transform: translate(-50%, -50%) rotate(-20deg) translateY(6vh);
+  }
+  90% {
+    transform: translate(-50%, -50%) rotate(0deg) translateY(8vh);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-20deg) translateY(10vh);
   }
 }
 
