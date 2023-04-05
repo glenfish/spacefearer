@@ -157,7 +157,7 @@ top:170px;
     background-image: url('../images/planet.jpg');
     background-repeat: no-repeat;
   /* background-attachment: fixed; */
-    /* background-position: 100% 0%; */
+    background-position: 50% 30%;
     background-size: cover;
     opacity: 1;
   }
@@ -196,7 +196,7 @@ top:170px;
     z-index: 4000;
     }
     #herosection-bgnd {
-      background-color: rgba(0, 5, 21, 0.55)!important;
+      background-color: rgba(0, 5, 21, 0.4)!important;
       border:#141414 0px solid;
       box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
       border-radius: 40px;
@@ -264,7 +264,7 @@ top:170px;
     z-index: 4000;
     }
     #herosection-bgnd {
-      background-color: rgba(0, 5, 21, 0.55)!important;
+      background-color: rgba(0, 5, 21, 0.5)!important;
       border:#141414 0px solid;
       box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
       border-radius: 40px;
@@ -328,7 +328,7 @@ top:170px;
       }
 
       #herosection-bgnd {
-        background-color: rgba(0,0,0,0.3)!important;
+        background-color: rgba(0,0,0,0.4)!important;
         border:#141414 0px solid;
         box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
         border-radius: 40px;
@@ -471,7 +471,7 @@ top:170px;
   }
   #hero-subtitle {
     position:relative;
-    top: -40px;
+    top: -45px;
   }
   #protect-your-crypto {
     position:relative;
@@ -482,7 +482,7 @@ top:170px;
   #how-it-works {
 
     position:relative;
-    top: -125px;
+    top: -135px;
     max-width: 250px;
     margin: auto;
   }
