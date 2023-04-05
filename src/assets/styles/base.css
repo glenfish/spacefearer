@@ -104,7 +104,11 @@ top:170px;
   }
 
 
-
+  #spaceman-1 img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }  
 
 .floating { 
   animation: floating 25s infinite ease-in-out;
@@ -225,7 +229,9 @@ top:170px;
     }
   }
 
-  @media only screen and (min-width: 545px) and (max-width: 1399px){
+
+
+  @media only screen and (min-width: 420px) and (max-width: 1399px){
     /* medium screens */
     #starfield {
       min-height:100%!important;
@@ -267,26 +273,26 @@ top:170px;
       
   }
 
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 419px) {
   /* small screens */
   #starfield {
     min-height:100%!important;
     max-height: 100%!important;
   }
   #spaceman-1 {
-    left: -120px;
+    left: -100px;
     position:relative;
     text-align: center;
-    top: 260px;
+    top: 210px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
-    scale: 0.43;
+    scale: 0.42;
     
     }
     #spaceman-1 img {
-      min-width: 840px!important;
-      transform: rotate(260deg)!important;
+      min-width: 740px!important;
+      transform: rotate(220deg)!important;
     }
     #herosection {
       position: absolute;
@@ -299,7 +305,7 @@ top:170px;
     padding:0px;
    }
    #herosection-bgnd {
-    background-color: rgba(0,0,0,0.15)!important;
+    background-color: rgba(0,0,0,0.25)!important;
     border:#141414 0px solid;
     box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
     border-radius: 40px;
@@ -308,7 +314,7 @@ top:170px;
 }
 
 #herosection-bgnd {
-  background-color: rgba(0, 6, 40, 0.65);
+  background-color: rgba(0, 6, 40, 0.35);
   border:#0d0d0d 0px solid;
   box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
   border-radius: 40px;
@@ -345,6 +351,57 @@ top:170px;
 #spaceman-1 {
   filter: drop-shadow(1px 1px 2px #d8d8d8);
 }
+#hero-title-2 { display:none; }
+#hero-subtitle-2 { display:none; }
+
+@media only screen and (max-width: 465px ) {
+  /* for font size changes for mobile */
+  #hero-title-1 {
+    display:none;
+  }
+  #hero-title-2 {
+    display:block;
+    position:relative;
+    top:-20px;
+    font-size: 50px!important;
+    line-height: 3.5rem!important;
+  }
+
+  #hero-subtitle-1 {
+    display:none;
+  }
+  #hero-subtitle-2 {
+    display:block;
+    font-size: 26px!important;
+    line-height: 3.0rem!important;
+    letter-spacing: -2px;
+    padding-top: 20px;
+  }
+  #protect-your-crypto {
+    position:relative;
+    top: -30px;
+  }
+  #how-it-works {
+
+    position:relative;
+    top: -10px;
+  }
+}
+
+@media only screen and (min-width: 464px) and (max-width: 639px ) {
+/* button placement */
+#protect-your-crypto {
+  position:relative;
+  top: -15px;
+}
+
+#how-it-works {
+  position:relative;
+  top: 5px;
+}
+}
+
+
 
 
 
