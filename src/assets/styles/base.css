@@ -128,6 +128,8 @@ top:170px;
 
 }
 
+
+
 #thetitle {
 
   color: #f15050;
@@ -147,6 +149,15 @@ top:170px;
 }
 @media only screen and (min-width: 1536px) {
   /* large screens */
+
+  #crypto-canvas {
+    /* background-color: blue; */
+    height: 800px;
+    width: 800px;
+    left: 0%;
+    top: 0%;
+    position: absolute;
+  }
 
   #starfield {
     min-height:70vh!important;
@@ -215,6 +226,15 @@ top:170px;
   }
 @media only screen and (min-width: 1400px) and (max-width: 1535px) {
   /* large screens */
+
+  #crypto-canvas {
+    /* background-color: blue; */
+    height: 800px;
+    width: 800px;
+    left: 4%;
+    top: 0%;
+    position: absolute;
+  }
 
   #starfield {
     min-height:50vh!important;
@@ -286,6 +306,15 @@ top:170px;
   @media only screen and (min-width: 465px) and (max-width: 1399px){
     /* medium screens */
 
+    #crypto-canvas {
+      /* background-color: blue; */
+      height: 700px;
+      width: 1000px;
+      left: 40%;
+      bottom: 0%;
+      position: absolute;
+    }
+
     #starfield {
       min-height:100%!important;
       max-height: 100%!important;
@@ -311,7 +340,7 @@ top:170px;
       z-index:1;
       height:auto;
       max-width:80%!important;
-      scale: 0.5;
+      scale: 0.45;
       
       }
       #spaceman-1 img {
@@ -349,6 +378,15 @@ top:170px;
 
 @media only screen and (max-width: 464px) {
   /* small screens */
+
+  #crypto-canvas {
+    /* background-color: blue; */
+    height: 450px;
+    width: 300px;
+    left: 60%;
+    bottom: 0%;
+    position: absolute;
+  }
 
   #starfield {
     min-height:100%!important;
@@ -507,6 +545,472 @@ top:170px;
 #hero-subtitle-2, #hero-subtitle-1 {
   color: #f15050!important;
 }
+
+/* cryptos start */
+#btc {
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/cryptos/bitcoin-btc-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 35%;
+  top: 30%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(3deg);
+}
+#aave {
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/cryptos/aave-aave-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 20%;
+  top: 40%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(-30deg);
+}
+#ada {
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/cryptos/cardano-ada-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 15%;
+  top: 20%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(8deg);
+}
+#cspr {
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/cryptos/casper-cspr-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 60%;
+  top: 20%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(-6deg);
+}
+#mana {
+  width: 34px;
+  height: 34px;
+  background-image: url('../images/cryptos/decentraland-mana-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 15%;
+  top: 30%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(2deg);
+}
+#doge {
+  width: 37px;
+  height: 37px;
+  background-image: url('../images/cryptos/dogecoin-doge-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 58%;
+  top: 2%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(46deg);
+}
+#eth {
+  width: 45px;
+  height: 45px;
+  background-image: url('../images/cryptos/ethereum-eth-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 23%;
+  top: 64%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(0deg);
+}
+#ltc {
+  width: 40px;
+  height: 40px;
+  background-image: url('../images/cryptos/litecoin-ltc-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 32%;
+  top: 38%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(-20deg);
+}
+#xmr {
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/cryptos/monero-xmr-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 56%;
+  top: 20%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(13deg);
+}
+#shib {
+  width: 37px;
+  height: 37px;
+  background-image: url('../images/cryptos/shiba-inu-shib-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 52%;
+  top: 32%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(-5deg);
+}
+#sol {
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/cryptos/solana-sol-logo.svg');
+  position:relative;
+  z-index:100;
+  left: 65%;
+  top: 360%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transform: rotate(67deg);
+}
+#usd {
+  width: 34px;
+  height: 34px;
+  background-image: url('../images/cryptos/usd-coin-usdc-logo.svg');
+  position:absolute;
+  z-index:100;
+  left: 55%;
+  top: 26%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  transform: rotate(99deg);
+}
+
+
+/* cryptos end  */
+
+/* floating animations */
+
+.float-1 { 
+  animation: float-1 25s infinite ease-in-out;
+}
+.float-2 { 
+  animation: float-2 25s infinite ease-in-out;
+}
+.float-3 { 
+  animation: float-3 25s infinite ease-in-out;
+}
+.float-4 { 
+  animation: float-4 5s infinite ease-in-out;
+}
+.float-5 { 
+  animation: float-5 25s infinite ease-in-out;
+}
+.float-6 { 
+  animation: float-6 10s infinite ease-in-out;
+}
+.float-7 { 
+  animation: float-7 10s infinite ease-in-out;
+}
+.float-8 { 
+  animation: float-8 25s infinite ease-in-out;
+}
+.float-9 { 
+  animation: float-9 25s infinite ease-in-out;
+}
+.float-10 { 
+  animation: float-10 25s infinite ease-in-out;
+}
+.rotate-1 { 
+  animation: rotate-1 25s infinite ease-in-out;
+}
+@keyframes float-1 {
+  0% {
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+  }
+  10% {
+    transform: translate(-50%, -50%) translate3d(0, -10%, -5vh);
+  }
+  20% {
+    transform: translate(-50%, -50%) translate3d(0, -20%, -10vh);
+  }
+  30% {
+    transform: translate(-50%, -50%) translate3d(0, -30%, -15vh);
+  }
+  40% {
+    transform: translate(-50%, -50%) translate3d(0, -40%, -20vh);
+  }
+  50% {
+    transform: translate(-50%, -50%) translate3d(0, -50%, -25vh);
+  }
+  60% {
+    transform: translate(-50%, -50%) translate3d(0, -40%, -20vh);
+  }
+  70% {
+    transform: translate(-50%, -50%) translate3d(0, -30%, -15vh);
+  }
+  80% {
+    transform: translate(-50%, -50%) translate3d(0, -20%, -10vh);
+  }
+  90% {
+    transform: translate(-50%, -50%) translate3d(0, -10%, -5vh);
+  }
+  100% {
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes float-2 {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+  10% {
+    transform: translate(-50%, -50%) rotateZ(36deg);
+  }
+  20% {
+    transform: translate(-50%, -50%) rotateZ(72deg);
+  }
+  30% {
+    transform: translate(-50%, -50%) rotateZ(108deg);
+  }
+  40% {
+    transform: translate(-50%, -50%) rotateZ(144deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotateZ(180deg);
+  }
+  60% {
+    transform: translate(-50%, -50%) rotateZ(216deg);
+  }
+  70% {
+    transform: translate(-50%, -50%) rotateZ(252deg);
+  }
+  80% {
+    transform: translate(-50%, -50%) rotateZ(288deg);
+  }
+  90% {
+    transform: translate(-50%, -50%) rotateZ(324deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(360deg);
+  }
+}
+
+
+@keyframes float-3 {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  10% {
+    transform: translate3d(-5%, -5%, 5vh) rotate3d(1, 1, 0, 10deg);
+  }
+  20% {
+    transform: translate3d(10%, -10%, 10vh) rotate3d(1, 0, 1, 20deg);
+  }
+  30% {
+    transform: translate3d(-15%, -15%, 15vh) rotate3d(0, 1, 1, 30deg);
+  }
+  40% {
+    transform: translate3d(20%, -20%, 20vh) rotate3d(1, 1, 0, 40deg);
+  }
+  50% {
+    transform: translate3d(-25%, -25%, 25vh) rotate3d(1, 0, 1, 50deg);
+  }
+  60% {
+    transform: translate3d(20%, -20%, 20vh) rotate3d(0, 1, 1, 60deg);
+  }
+  70% {
+    transform: translate3d(-15%, -15%, 15vh) rotate3d(1, 1, 0, 70deg);
+  }
+  80% {
+    transform: translate3d(10%, -10%, 10vh) rotate3d(1, 0, 1, 80deg);
+  }
+  90% {
+    transform: translate3d(-5%, -5%, 5vh) rotate3d(0, 1, 1, 90deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes float-4 {
+  0% {
+    transform: translate(-50%, -50%) translateZ(0px);
+  }
+  10% {
+    transform: translate(-50%, -50%) translateZ(-5px);
+  }
+  20% {
+    transform: translate(-50%, -50%) translateZ(5px);
+  }
+  30% {
+    transform: translate(-50%, -50%) translateZ(-10px);
+  }
+  40% {
+    transform: translate(-50%, -50%) translateZ(10px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateZ(-15px);
+  }
+  60% {
+    transform: translate(-50%, -50%) translateZ(15px);
+  }
+  70% {
+    transform: translate(-50%, -50%) translateZ(-20px);
+  }
+  80% {
+    transform: translate(-50%, -50%) translateZ(20px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateZ(0px);
+  }
+}
+
+@keyframes float-5 {
+  0% {
+    transform: translate(-50%, -50%) translate3d(0px, 0px, 0px);
+  }
+  10% {
+    transform: translate(-50%, -50%) translate3d(-5px, -5px, 5px);
+  }
+  20% {
+    transform: translate(-50%, -50%) translate3d(5px, 5px, -5px);
+  }
+  30% {
+    transform: translate(-50%, -50%) translate3d(-10px, -5px, 10px);
+  }
+  40% {
+    transform: translate(-50%, -50%) translate3d(10px, 5px, -10px);
+  }
+  50% {
+    transform: translate(-50%, -50%) translate3d(-15px, 10px, 15px);
+  }
+  60% {
+    transform: translate(-50%, -50%) translate3d(15px, -10px, -15px);
+  }
+  70% {
+    transform: translate(-50%, -50%) translate3d(-20px, 15px, 20px);
+  }
+  80% {
+    transform: translate(-50%, -50%) translate3d(20px, -15px, -20px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes float-6 {
+  0% {
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+  }
+  10% {
+    transform: translate(-50%, -50%) translate3d(-5%, -5%, 5%);
+  }
+  20% {
+    transform: translate(-50%, -50%) translate3d(5%, 5%, -5%);
+  }
+  30% {
+    transform: translate(-50%, -50%) translate3d(-10%, -5%, 10%);
+  }
+  40% {
+    transform: translate(-50%, -50%) translate3d(10%, 5%, -10%);
+  }
+  50% {
+    transform: translate(-50%, -50%) translate3d(-15%, 10%, 15%);
+  }
+  60% {
+    transform: translate(-50%, -50%) translate3d(15%, -10%, -15%);
+  }
+  70% {
+    transform: translate(-50%, -50%) translate3d(-20%, 15%, 20%);
+  }
+  80% {
+    transform: translate(-50%, -50%) translate3d(20%, -15%, -20%);
+  }
+  100% {
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+  }
+}
+@keyframes float-7 {
+  0% {
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+  }
+  10% {
+    transform: translate(-50%, -50%) translate3d(1%, 1%, 0);
+  }
+  20% {
+    transform: translate(-50%, -50%) translate3d(-1%, -1%, 0);
+  }
+  30% {
+    transform: translate(-50%, -50%) translate3d(2%, -1%, 0);
+  }
+  40% {
+    transform: translate(-50%, -50%) translate3d(-2%, 1%, 0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translate3d(1%, 2%, 0);
+  }
+  60% {
+    transform: translate(-50%, -50%) translate3d(-1%, -2%, 0);
+  }
+  70% {
+    transform: translate(-50%, -50%) translate3d(2%, -1%, 0);
+  }
+  80% {
+    transform: translate(-50%, -50%) translate3d(-2%, 1%, 0);
+  }
+  100% {
+    transform: translate(-50%, -50%) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes float-8 {
+  0% {
+    transform: translate(-50%, -50%) translate3d(0, 0, 0) rotateZ(0deg);
+  }
+  10% {
+    transform: translate(-50%, -50%) translate3d(-5%, -5%, 5%) rotateZ(30deg);
+  }
+  20% {
+    transform: translate(-50%, -50%) translate3d(5%, 5%, -5%) rotateZ(60deg);
+  }
+  30% {
+    transform: translate(-50%, -50%) translate3d(-10%, -5%, 10%) rotateZ(90deg);
+  }
+  40% {
+    transform: translate(-50%, -50%) translate3d(10%, 5%, -10%) rotateZ(120deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) translate3d(-15%, 10%, 15%) rotateZ(150deg);
+  }
+  60% {
+    transform: translate(-50%, -50%) translate3d(15%, -10%, -15%) rotateZ(180deg);
+  }
+  70% {
+    transform: translate(-50%, -50%) translate3d(-20%, 15%, 20%) rotateZ(210deg);
+  }
+  80% {
+    transform: translate(-50%, -50%) translate3d(20%, -15%, -20%) rotateZ(240deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) translate3d(0, 0, 0) rotateZ(360deg);
+  }
+}
+@keyframes rotate-1 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 
 
 
