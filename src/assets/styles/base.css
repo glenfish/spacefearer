@@ -1,5 +1,6 @@
 html {
   min-width: 100vw;
+  min-height: 100%;
 }
 
 
@@ -147,9 +148,9 @@ top:170px;
   background-size: cover;
   opacity: 1;
 }
-/* ******** wide screens ******************************************************** * */  
+/* ******** wider screens ******************************************************** * */  
 @media only screen and (min-width: 1536px) {
-  /* large screens */
+  /* wider screens */
 
   #crypto-canvas {
     /* background-color: blue; */
@@ -162,8 +163,8 @@ top:170px;
   }
 
   #starfield {
-    min-height:70vh!important;
-    max-height: 80vh; 
+    min-height:1150px!important;
+    /* max-height: 80vh!important;  */
     position:relative;
     overflow:hidden;
     margin:  auto ;
@@ -241,8 +242,8 @@ top:170px;
   }
 
   #starfield {
-    min-height:50vh!important;
-    max-height: 60vh;
+    min-height:800px!important;
+    /* max-height: 80vh!important; */
     position:relative;
     overflow:hidden;
     margin:  auto ;
@@ -320,8 +321,8 @@ top:170px;
     }
 
     #starfield {
-      min-height:100%!important;
-      max-height: 100%!important;
+      min-height:1100px!important;
+      /* max-height: 100%!important; */
       position:relative;
       overflow:hidden;
       margin:  auto ;
@@ -394,8 +395,8 @@ top:170px;
   }
 
   #starfield {
-    min-height:100%!important;
-    max-height: 100%!important;
+    min-height:1000px!important;
+    /* max-height: 100%!important; */
     position:relative;
     overflow:hidden;
     margin:  auto ;
@@ -410,7 +411,7 @@ top:170px;
     left: -100px;
     position:relative;
     text-align: center;
-    top: 240px;
+    top: 360px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
