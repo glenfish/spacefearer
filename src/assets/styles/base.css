@@ -361,7 +361,7 @@ top:170px;
       }
 
       #herosection-bgnd {
-        background-color: rgba(0,0,0,0.4)!important;
+        background-color: rgba(0,0,0,0.2)!important;
         border:#141414 0px solid;
         box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
         border-radius: 40px;
@@ -453,7 +453,7 @@ top:170px;
   /* max-width:1460px; */
   margin:  auto;
   /* background-color: rgba(255, 152, 152, 0.3); */
-  min-height: 70vh!important;
+  /* min-height: 70vh!important; */
   
 }
 
