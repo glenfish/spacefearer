@@ -132,6 +132,19 @@ top:170px;
 
   color: #f15050;
 }
+#starfield {
+  min-height:70vh!important;
+  max-height: 80vh; 
+  position:relative;
+  overflow:hidden;
+  margin:  auto ;
+  background-image: url('../images/planet.jpg');
+  background-repeat: no-repeat;
+/* background-attachment: fixed; */
+  /* background-position: 100% 0%; */
+  background-size: cover;
+  opacity: 1;
+}
 @media only screen and (min-width: 1536px) {
   /* large screens */
 
@@ -354,7 +367,7 @@ top:170px;
     left: -100px;
     position:relative;
     text-align: center;
-    top: 310px;
+    top: 240px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
@@ -362,7 +375,7 @@ top:170px;
     
     }
     #spaceman-1 img {
-      min-width: 990px!important;
+      min-width: 840px!important;
       transform: rotate(220deg)!important;
     }
     #herosection {
@@ -440,7 +453,7 @@ top:170px;
   #hero-title-2 {
     display:block;
     position:relative;
-    top:-20px;
+    top:-25px;
     font-size: 50px!important;
     line-height: 3.5rem!important;
   }
@@ -450,29 +463,32 @@ top:170px;
   }
   #hero-subtitle-2 {
     display:block;
-    font-size: 28px!important;
+    font-size: 26px!important;
     line-height: 3.0rem!important;
     letter-spacing: -2px;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #f15050;
   }
   #hero-subtitle {
     position:relative;
-    top: -30px;
+    top: -40px;
   }
   #protect-your-crypto {
     position:relative;
-    top: -40px;
+    top: 10px;
     max-width: 250px;
     margin: auto;
   }
   #how-it-works {
 
     position:relative;
-    top: -20px;
+    top: -125px;
     max-width: 250px;
     margin: auto;
   }
+
+    
+
 }
 
 @media only screen and (min-width: 464px) and (max-width: 639px ) {
