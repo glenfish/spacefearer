@@ -134,9 +134,19 @@ top:170px;
 }
 @media only screen and (min-width: 1536px) {
   /* large screens */
+
   #starfield {
     min-height:70vh!important;
     max-height: 80vh; 
+    position:relative;
+    overflow:hidden;
+    margin:  auto ;
+    background-image: url('../images/planet.jpg');
+    background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+    /* background-position: 100% 0%; */
+    background-size: cover;
+    opacity: 1;
   }
   #thetitle {
     position:relative;
@@ -192,9 +202,19 @@ top:170px;
   }
 @media only screen and (min-width: 1400px) and (max-width: 1535px) {
   /* large screens */
+
   #starfield {
     min-height:50vh!important;
-    max-height: 60vh; 
+    max-height: 60vh;
+    position:relative;
+    overflow:hidden;
+    margin:  auto ;
+    background-image: url('../images/planet.jpg');
+    background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 1;
   }
   #thetitle {
     position:relative;
@@ -250,12 +270,23 @@ top:170px;
 
 
 
-  @media only screen and (min-width: 420px) and (max-width: 1399px){
+  @media only screen and (min-width: 465px) and (max-width: 1399px){
     /* medium screens */
+
     #starfield {
       min-height:100%!important;
-    max-height: 100%!important;
+      max-height: 100%!important;
+      position:relative;
+      overflow:hidden;
+      margin:  auto ;
+      background-image: url('../images/planet.jpg');
+      background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+      background-position: 50% 50%;
+      background-size: cover;
+      opacity: 1;
     }
+    
     #thetitle {
       position:relative;
       top: 10px!important;
@@ -284,7 +315,7 @@ top:170px;
       }
 
       #herosection-bgnd {
-        background-color: rgba(0,0,0,0.35)!important;
+        background-color: rgba(0,0,0,0.3)!important;
         border:#141414 0px solid;
         box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
         border-radius: 40px;
@@ -303,25 +334,35 @@ top:170px;
       
   }
 
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 464px) {
   /* small screens */
+
   #starfield {
     min-height:100%!important;
     max-height: 100%!important;
+    position:relative;
+    overflow:hidden;
+    margin:  auto ;
+    background-image: url('../images/planet.jpg');
+    background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 1;
   }
   #spaceman-1 {
     left: -100px;
     position:relative;
     text-align: center;
-    top: 210px;
+    top: 310px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
-    scale: 0.42;
+    scale: 0.4;
     
     }
     #spaceman-1 img {
-      min-width: 740px!important;
+      min-width: 990px!important;
       transform: rotate(220deg)!important;
     }
     #herosection {
@@ -335,9 +376,9 @@ top:170px;
     padding:0px;
    }
    #herosection-bgnd {
-    background-color: rgba(0,0,0,0.25)!important;
+    background-color: rgba(0,0,0,0.45)!important;
     border:#141414 0px solid;
-    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
     border-radius: 40px;
     padding:20px;
   }
@@ -414,6 +455,10 @@ top:170px;
     letter-spacing: -2px;
     padding-top: 20px;
     color: #f15050;
+  }
+  #hero-subtitle {
+    position:relative;
+    top: -30px;
   }
   #protect-your-crypto {
     position:relative;
