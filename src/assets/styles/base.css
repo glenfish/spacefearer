@@ -359,7 +359,8 @@ top:170px;
       position:absolute;
       min-width: 100vw!important;
       z-index: 900;
-      top: -40px;
+      top: -120px;
+      padding-top: 80px;
       }
 
       #herosection-bgnd {
@@ -370,7 +371,7 @@ top:170px;
         min-width: 100%!important;
     position:relative;
     margin: auto;
-    left: -15px;
+    left: -7px;
         
       }
       #protect-your-crypto {
@@ -421,7 +422,7 @@ top:170px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
-    scale: 0.4;
+    scale: 0.44;
     
     }
     #spaceman-1 img {
