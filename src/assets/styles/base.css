@@ -179,6 +179,16 @@ top:170px;
       border-radius: 40px;
       padding:20px;
     }
+    #protect-your-crypto {
+      position:relative;
+      top: -15px;
+      margin-right:40px;
+    }
+    
+    #how-it-works {
+      position:relative;
+      top: -15px;
+    }
   }
 @media only screen and (min-width: 1400px) and (max-width: 1535px) {
   /* large screens */
@@ -227,6 +237,15 @@ top:170px;
       border-radius: 40px;
       padding:20px;
     }
+    #protect-your-crypto {
+      position:relative;
+      top: -12px;
+    }
+    
+    #how-it-works {
+      position:relative;
+      top: -12px;
+    }
   }
 
 
@@ -239,12 +258,12 @@ top:170px;
     }
     #thetitle {
       position:relative;
-      top: 10px;
+      top: 10px!important;
     }
     #spaceman-1 {
       position:relative;
       text-align: center;
-      top: 220px;
+      top: 260px;
       z-index:1;
       height:auto;
       max-width:80%!important;
@@ -264,11 +283,21 @@ top:170px;
       }
 
       #herosection-bgnd {
-        background-color: rgba(0,0,0,0.15)!important;
+        background-color: rgba(0,0,0,0.35)!important;
         border:#141414 0px solid;
         box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
         border-radius: 40px;
-        padding:20px;
+        padding:10px;
+        
+      }
+      #protect-your-crypto {
+        position:relative;
+        top: -15px;
+      }
+      
+      #how-it-works {
+        position:relative;
+        top: -15px;
       }
       
   }
@@ -318,7 +347,8 @@ top:170px;
   border:#0d0d0d 0px solid;
   box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
   border-radius: 40px;
-  padding:20px;
+  padding:0px;
+  margin-top: 20px;
 }
 
 .herocontainer {
@@ -372,10 +402,11 @@ top:170px;
   }
   #hero-subtitle-2 {
     display:block;
-    font-size: 26px!important;
+    font-size: 28px!important;
     line-height: 3.0rem!important;
     letter-spacing: -2px;
     padding-top: 20px;
+    color: #f15050;
   }
   #protect-your-crypto {
     position:relative;
@@ -397,8 +428,9 @@ top:170px;
 
 #how-it-works {
   position:relative;
-  top: 5px;
+  top: -7px;
 }
+
 }
 
 
