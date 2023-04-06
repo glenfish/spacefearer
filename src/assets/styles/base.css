@@ -1362,7 +1362,21 @@ top:170px;
   }
 }
 
-.taller {
+.tall {
   transform: scaleY(1.2); 
   transform: scaleX(0.97); 
+}
+
+.taller {
+  transform: scaleY(1.4); 
+  transform: scaleX(0.9); 
+}
+
+@media only screen and (min-width: 618px) and (max-width: 866px ) {
+
+
+#fatal-spacewalks {
+ font-size: 56px!important;
+}
+
 }
