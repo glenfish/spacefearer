@@ -123,8 +123,9 @@ html {
     width: 50%!important;
     /* max-height: 50vh!important; */
     left: 0%;
-    height: 900px!important;
+    height: 750px!important;
     overflow:hidden;
+    /* background-color: red; */
     
   }
 
@@ -133,7 +134,7 @@ html {
     width: 50%!important;
     /* max-height: 50vh!important; */
     left: 50%;
-    height: 900px!important;
+    height: 750px!important;
     overflow:hidden;
     /* background-color: red; */
   }
