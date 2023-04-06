@@ -407,10 +407,10 @@ top:170px;
 
   #crypto-canvas {
     /* background-color: blue; */
-    height: 780px;
+    height: 720px;
     width: 300px;
     left: 40%;
-    bottom: -10%;
+    bottom: -4%;
     position: absolute;
     opacity: 1;
   }
@@ -429,14 +429,14 @@ top:170px;
     opacity: 1;
   }
   #spaceman-1 {
-    left: -140px;
+    left: -120px;
     position:relative;
     text-align: center;
-    top: 320px;
+    top: 260px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
-    scale: 0.47;
+    scale: 0.42;
     
     }
     #spaceman-1 img {
@@ -457,7 +457,7 @@ top:170px;
     left: -25px;
    }
    #herosection-bgnd {
-    background-color: rgba(0,0,0,0.5)!important;
+    background-color: rgba(0,0,0,0.3)!important;
     border:#141414 0px solid;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
     border-radius: 40px;
@@ -556,7 +556,7 @@ top:170px;
   #how-it-works {
 
     position:relative;
-    top: -64px;
+    top: -69px;
     max-width: 250px;
     margin: auto;
   }
@@ -613,8 +613,8 @@ top:170px;
   background-image: url('../images/cryptos/cardano-ada-logo.svg');
   position:relative;
   z-index:100;
-  left: 15%;
-  top: 20%;
+  left: -43%;
+  top: 23%;
   background-repeat: no-repeat;
   opacity: 0.9;
   transform: rotate(8deg);
