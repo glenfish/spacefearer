@@ -308,14 +308,23 @@ top:170px;
     }
   }
 
+  @media only screen and (min-width: 1400px) and (max-width: 1535px){
+    /* medium screens */
 
+    #hero-subtitle {
+      position:relative;
+      top: -15px;
+      font-size: 22px;
+    }
+  }
   /* ******** medium screens ******************************************************** * */
   @media only screen and (min-width: 619px) and (max-width: 1399px){
     /* medium screens */
 
     #hero-subtitle {
       position:relative;
-      top: -30px;
+      top: -20px;
+      font-size: 22px;
     }
 
     #crypto-canvas {
