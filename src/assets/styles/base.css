@@ -1146,18 +1146,12 @@ top:170px;
 @media only screen and (min-width: 619px ) {
   .animation-container {
     overflow: hidden;
-    /* background-color: rgb(16, 16, 16); */
+    /* background-color: rgb(100, 100, 100); */
     margin-top:20px;
     color:#f15050!important;
+    min-height: 145px;
   }
-.animation-headline {
-  font-size: 1.2rem;
-  line-height: 3.0;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-  /* background-color: blue; */
-}
+
 }
 
 @media only screen and (max-width: 618px ) {
@@ -1174,8 +1168,9 @@ top:170px;
     font-weight: 700;
     color: #fff;
     text-align: center;
-    /* background-color: blue; */
+    
     padding-left: 12px;
+    /* background-color: blue; */
   }
 }
 .animation-headline.slide span {
