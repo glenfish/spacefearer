@@ -407,10 +407,10 @@ top:170px;
 
   #crypto-canvas {
     /* background-color: blue; */
-    height: 450px;
+    height: 570px;
     width: 300px;
-    left: 45%;
-    bottom: 10%;
+    left: 40%;
+    bottom: 3%;
     position: absolute;
     opacity: 1;
   }
@@ -429,14 +429,14 @@ top:170px;
     opacity: 1;
   }
   #spaceman-1 {
-    left: -100px;
+    left: -140px;
     position:relative;
     text-align: center;
-    top: 360px;
+    top: 320px;
     z-index:1;
     height:auto;
     /* overflow: hidden; */
-    scale: 0.44;
+    scale: 0.47;
     
     }
     #spaceman-1 img {
@@ -446,7 +446,7 @@ top:170px;
     #herosection {
       position: absolute;
       z-index: 900;
-      top: -30px;
+      top: -25px;
       
     }
    #herocontainer {
@@ -526,7 +526,7 @@ top:170px;
   #hero-title-2 {
     display:block;
     position:relative;
-    top:-30px;
+    top:-35px;
     font-size: 50px!important;
     line-height: 3.5rem!important;
   }
@@ -539,24 +539,24 @@ top:170px;
     font-size: 26px!important;
     line-height: 2.5rem!important;
     letter-spacing: -2px;
-    padding-top: 5px;
+    padding-top: 0px;
     color: #f15050;
     /* background-color: blue; */
   }
   #hero-subtitle {
     position:relative;
-    top: -40px;
+    top: -50px;
   }
   #protect-your-crypto {
     position:relative;
-    top: -72px;
+    top: -84px;
     max-width: 250px;
     margin: auto;
   }
   #how-it-works {
 
     position:relative;
-    top: -57px;
+    top: -64px;
     max-width: 250px;
     margin: auto;
   }
