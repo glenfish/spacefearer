@@ -540,14 +540,14 @@ top:170px;
   }
   #protect-your-crypto {
     position:relative;
-    top: 5px;
+    top: -60px;
     max-width: 250px;
     margin: auto;
   }
   #how-it-works {
 
     position:relative;
-    top: -115px;
+    top: -40px;
     max-width: 250px;
     margin: auto;
   }
@@ -560,12 +560,12 @@ top:170px;
 /* button placement */
 #protect-your-crypto {
   position:relative;
-  top: 25px;
+  top: -60px;
 }
 
 #how-it-works {
   position:relative;
-  top: -113px;
+  top: -48px;
 }
 
 }
