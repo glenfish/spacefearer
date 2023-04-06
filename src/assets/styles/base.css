@@ -570,8 +570,8 @@ top:170px;
 
 /* cryptos start */
 #btc {
-  width: 40px;
-  height: 40px;
+  width: 47px;
+  height: 47px;
   background-image: url('../images/cryptos/bitcoin-btc-logo.svg');
   position:relative;
   z-index:100;
@@ -606,8 +606,8 @@ top:170px;
   transform: rotate(8deg);
 }
 #cspr {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-image: url('../images/cryptos/casper-cspr-logo.svg');
   position:relative;
   z-index:100;
@@ -648,7 +648,7 @@ top:170px;
   position:relative;
   z-index:100;
   left: 23%;
-  top: 64%;
+  top: 58%;
   background-repeat: no-repeat;
   opacity: 0.9;
   transform: rotate(0deg);
@@ -678,8 +678,8 @@ top:170px;
   transform: rotate(13deg);
 }
 #shib {
-  width: 37px;
-  height: 37px;
+  width: 32px;
+  height: 32px;
   background-image: url('../images/cryptos/shiba-inu-shib-logo.svg');
   position:relative;
   z-index:100;
@@ -706,9 +706,9 @@ top:170px;
   height: 34px;
   background-image: url('../images/cryptos/usd-coin-usdc-logo.svg');
   position:absolute;
-  z-index:100;
-  left: 55%;
-  top: 26%;
+  z-index:50;
+  left: 35%;
+  top: 31%;
   background-repeat: no-repeat;
   opacity: 0.5;
   transform: rotate(99deg);
@@ -741,7 +741,7 @@ top:170px;
   animation: float-7 10s infinite ease-in-out;
 }
 .float-8 { 
-  animation: float-8 25s infinite ease-in-out;
+  animation: antigravity 25s infinite ease-in-out;
 }
 .float-9 { 
   animation: float-9 55s infinite ease-in-out;
@@ -1101,6 +1101,42 @@ top:170px;
   }
   100% {
     transform: translate(-50%, -50%) rotate(-20deg) translateY(10vh);
+  }
+}
+
+@keyframes antigravity {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(300deg);
+  }
+  10% {
+    transform: translate(-45px, -45px) rotateZ(308deg);
+  }
+  20% {
+    transform: translate(-40px, -40px) rotateZ(316deg);
+  }
+  30% {
+    transform: translate(-35px, -35px) rotateZ(324deg);
+  }
+  40% {
+    transform: translate(-30px, -30px) rotateZ(332deg);
+  }
+  50% {
+    transform: translate(-25px, -25px) rotateZ(340deg);
+  }
+  60% {
+    transform: translate(-20px, -20px) rotateZ(348deg);
+  }
+  70% {
+    transform: translate(-15px, -15px) rotateZ(356deg);
+  }
+  80% {
+    transform: translate(-10px, -10px) rotateZ(4deg);
+  }
+  90% {
+    transform: translate(-5px, -5px) rotateZ(12deg);
+  }
+  100% {
+    transform: translate(0, 0) rotateZ(20deg);
   }
 }
 
