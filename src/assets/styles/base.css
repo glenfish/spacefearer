@@ -227,10 +227,17 @@ top:170px;
       position:relative;
       top: -15px;
     }
+    #hero-subtitle {
+      position:relative;
+      top: -15px;
+      font-size: 24px;
+    }
   }
 /* ******** large screens ******************************************************** * */  
 @media only screen and (min-width: 1400px) and (max-width: 1535px) {
   /* large screens */
+
+
 
   #crypto-canvas {
     /* background-color: blue; */
@@ -315,7 +322,7 @@ top:170px;
     #hero-subtitle {
       position:relative;
       top: -15px;
-      font-size: 22px;
+      font-size: 24px;
     }
   }
   /* ******** medium screens ******************************************************** * */
