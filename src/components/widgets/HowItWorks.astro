@@ -7,13 +7,13 @@ import { Icon } from 'astro-icon';
     <div class="container mx-auto flex flex-col p-6">
       <h2 class="py-4 mb-10 text-5xl font-bold text-center">HOW IT WORKS</h2>
 
-      <div class="absolute z-0 left-1/2 -ml-2 w-2 h-[93%] bg-blue-400" style="top:260px;"></div>
+      <div class="absolute z-0 left-1/2 -ml-2 w-2 h-[93%] dark:bg-blue-400 bg-gray-400" style="top:260px;"></div>
 
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div
             class="flex flex-col items-center p-8 space-y-3 dark:bg-gradient-to-b dark:from-gray-600 dark:via-gray-800 dark:to-black text-center rounded-xl"
@@ -21,31 +21,34 @@ import { Icon } from 'astro-icon';
             <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white font-mono">STEP 1</h1>
 
             <p class="text-gray-500 dark:text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos
+              This is a short description of how this step operates. It should be about 100 - 140 characters in length
+              and be an overview.
             </p>
           </div>
         </div>
 
         <div class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-2 lg:text-left">
-          <span class="text-xl tracking-wider uppercase dark:text-blue-400 md:mx-10">subtitle</span>
-          <span class="text-2xl font-bold md:text-3xl md:mx-10">Veritatis dolores</span>
+          <span class="text-xl tracking-wider uppercase dark:text-blue-400 md:mx-10">benefit here</span>
+          <span class="text-2xl font-bold md:text-3xl md:mx-10">The Step Name</span>
           <span class="mt-4 dark:text-gray-300 md:mx-10"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error alias dolorem
-            praesentium sit soluta iure incidunt labore explicabo eaque, quia architecto veritatis dolores, enim cons
-            equatur nihil ipsum.</span
+            >This section discusses the reasons and features and benefits, addressing any objections. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Aperiam facilis, voluptates error ipsum.</span
           >
         </div>
 
         <div class="flex items-center justify-center lg:col-span-1 col-span-full">
-          <div><img src="./images/logo-sml.png" alt="" class="h-12 md:h-14 lg:h-16" /></div>
+          <span>
+            a related picture goes here<br />
+            <div><img src="./images/logo-sml.png" alt="" class="h-12 md:h-14 lg:h-16" /></div>
+          </span>
         </div>
       </div>
       <!-- ******************************* -->
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-10 bg-gray-100"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-20 bg-gray-100"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div class="flex flex-col items-center p-8 space-y-3 text-center rounded-xl">
             <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white font-mono">STEP 2</h1>
@@ -72,10 +75,10 @@ import { Icon } from 'astro-icon';
       <!-- ******************************* -->
 
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-10"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-20"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div
             class="flex flex-col items-center p-8 space-y-3 dark:bg-gradient-to-b dark:from-gray-600 dark:via-gray-800 dark:to-black text-center rounded-xl"
@@ -104,10 +107,10 @@ import { Icon } from 'astro-icon';
       </div>
       <!-- ******************************* -->
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-10 bg-gray-100"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-20 bg-gray-100"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div class="flex flex-col items-center p-8 space-y-3 text-center rounded-xl">
             <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white font-mono">STEP 4</h1>
@@ -134,10 +137,10 @@ import { Icon } from 'astro-icon';
       <!-- ******************************* -->
 
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-10"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-20"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div
             class="flex flex-col items-center p-8 space-y-3 dark:bg-gradient-to-b dark:from-gray-600 dark:via-gray-800 dark:to-black text-center rounded-xl"
@@ -166,10 +169,10 @@ import { Icon } from 'astro-icon';
       </div>
       <!-- ******************************* -->
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-10 bg-gray-100"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-20 bg-gray-100"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div class="flex flex-col items-center p-8 space-y-3 text-center rounded-xl">
             <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white font-mono">STEP 6</h1>
@@ -196,10 +199,10 @@ import { Icon } from 'astro-icon';
       <!-- ******************************* -->
 
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-10"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-20"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div
             class="flex flex-col items-center p-8 space-y-3 dark:bg-gradient-to-b dark:from-gray-600 dark:via-gray-800 dark:to-black text-center rounded-xl"
@@ -228,10 +231,10 @@ import { Icon } from 'astro-icon';
       </div>
       <!-- ******************************* -->
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-10 bg-gray-100"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-20 bg-gray-100"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div class="flex flex-col items-center p-8 space-y-3 text-center rounded-xl">
             <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white font-mono">STEP 8</h1>
@@ -258,10 +261,10 @@ import { Icon } from 'astro-icon';
       <!-- ******************************* -->
 
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-10"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-20"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div
             class="flex flex-col items-center p-8 space-y-3 dark:bg-gradient-to-b dark:from-gray-600 dark:via-gray-800 dark:to-black text-center rounded-xl"
@@ -290,10 +293,10 @@ import { Icon } from 'astro-icon';
       </div>
       <!-- ******************************* -->
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-10 bg-gray-100"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-20 bg-gray-100"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div class="flex flex-col items-center p-8 space-y-3 text-center rounded-xl">
             <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white font-mono">STEP 10</h1>
@@ -320,10 +323,10 @@ import { Icon } from 'astro-icon';
       <!-- ******************************* -->
 
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-10"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-20"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div
             class="flex flex-col items-center p-8 space-y-3 dark:bg-gradient-to-b dark:from-gray-600 dark:via-gray-800 dark:to-black text-center rounded-xl"
@@ -352,10 +355,10 @@ import { Icon } from 'astro-icon';
       </div>
       <!-- ******************************* -->
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-10 bg-gray-100"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-20 bg-gray-100"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div class="flex flex-col items-center p-8 space-y-3 text-center rounded-xl">
             <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white font-mono">STEP 12</h1>
@@ -382,10 +385,10 @@ import { Icon } from 'astro-icon';
       <!-- ******************************* -->
 
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-10"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-700 dark:via-gray-900 dark:to-black bg-gray-100 mt-20"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div
             class="flex flex-col items-center p-8 space-y-3 dark:bg-gradient-to-b dark:from-gray-600 dark:via-gray-800 dark:to-black text-center rounded-xl"
@@ -414,10 +417,10 @@ import { Icon } from 'astro-icon';
       </div>
       <!-- ******************************* -->
       <div
-        class="relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 border-2 border-blue-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-10 bg-gray-100"
+        class="hiw-box relative z-10 grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0 dark:border-4 border-2 border-gray-400 dark:border-blue-300 rounded-xl dark:bg-gradient-to-b dark:from-gray-600 dark:to-gray-900 mt-20 bg-gray-100"
       >
         <div
-          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-blue-400 dark:border-gray-300 rounded-xl xl:mx-7"
+          class="flex flex-col justify-center max-w-3xl text-center col-span-full lg:col-span-1 lg:text-left dark:border-4 border-2 dark:bg-gradient-to-b dark:from-gray-500 dark:to-gray-800 border-gray-400 dark:border-gray-300 rounded-xl xl:mx-7"
         >
           <div class="flex flex-col items-center p-8 space-y-3 text-center rounded-xl">
             <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white font-mono">STEP 14</h1>
