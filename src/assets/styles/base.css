@@ -156,9 +156,9 @@ top:170px;
   #crypto-canvas {
     /* background-color: blue; */
     height: 1000px;
-    width: 1400px;
-    left: 0%;
-    top: -10%;
+    width: 1000px;
+    left: 10%;
+    top: -23%;
     position: absolute;
     opacity: 1;
   }
@@ -194,9 +194,9 @@ top:170px;
     }
     #herosection {
       position:relative;
-      min-width: 870px!important;
+      min-width: 950px!important;
       left: -300px;
-      top: -20px;
+      top: 40px;
       z-index: 4000;
     }
     .flex-container {
