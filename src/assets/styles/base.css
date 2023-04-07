@@ -1252,6 +1252,12 @@ top:170px;
 
 }
 
+@media only screen and (max-width:525px ) {
+  .hidden-break {
+    display: block!important;
+  }
+}
+
 @media only screen and (max-width: 618px ) {
   .animation-container {
     /* overflow: hidden; */
