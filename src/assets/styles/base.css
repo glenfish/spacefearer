@@ -1750,7 +1750,7 @@ background-attachment: fixed!important;
 background-size: cover!important;
 }
 
-#fatal-spacewalks {
+.shakeit {
   animation: shake 0.2s ease-in-out infinite;
 }
 
