@@ -227,23 +227,23 @@ import { SITE } from '~/config.mjs';
 </script>
 
 <script is:inline>
-  function iOS() {
-    return (
-      ['iPhone'].includes(navigator.platform) ||
-      // iPad on iOS 13 detection
-      (navigator.userAgent.includes('Mac') && 'ontouchend' in document)
-    );
-  }
-  $(document).on('click', 'a[href^="#"]', function (event) {
-    if (iOS()) {
-      event.preventDefault();
+  // function iOS() {
+  //   return (
+  //     ['iPhone'].includes(navigator.platform) ||
+  //     // iPad on iOS 13 detection
+  //     (navigator.userAgent.includes('Mac') && 'ontouchend' in document)
+  //   );
+  // }
+  // $(document).on('click', 'a[href^="#"]', function (event) {
+  //   if (iOS()) {
+  //     event.preventDefault();
 
-      $('html, body').animate(
-        {
-          scrollTop: $($.attr(this, 'href')).offset().top + 535,
-        },
-        500
-      );
-    }
-  });
+  //     $('html, body').animate(
+  //       {
+  //         scrollTop: $($.attr(this, 'href')).offset().top + 535,
+  //       },
+  //       500
+  //     );
+  //   }
+  // });
 </script>
