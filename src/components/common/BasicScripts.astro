@@ -225,3 +225,25 @@ import { SITE } from '~/config.mjs';
 
   carousel();
 </script>
+
+<script is:inline>
+  function iOS() {
+    return (
+      ['iPad Simulator', 'iPhone Simulator', 'iPod Simulator', 'iPad', 'iPhone', 'iPod'].includes(navigator.platform) ||
+      // iPad on iOS 13 detection
+      (navigator.userAgent.includes('Mac') && 'ontouchend' in document)
+    );
+  }
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    if (iOS()) {
+      event.preventDefault();
+
+      $('html, body').animate(
+        {
+          scrollTop: $($.attr(this, 'href')).offset().top + 35,
+        },
+        500
+      );
+    }
+  });
+</script>
