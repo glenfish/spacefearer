@@ -2,8 +2,11 @@
 html {
   min-width: 100vw;
   min-height: 100%;
+  
 }
-
+body {
+  overflow-y: scroll;
+}
 
 @tailwind base;
 @tailwind components;
