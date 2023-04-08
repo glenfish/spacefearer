@@ -156,7 +156,7 @@ top:170px;
   #fatal-spacewalks {
     margin-top:0px!important;
     padding-top:0px!important;
-    top:-14px!important;
+    /* top:-14px!important; */
     font-size: 84px!important;
   }
 
@@ -338,7 +338,7 @@ top:170px;
 
     #fatal-spacewalks {
 
-      top:6px!important;
+      /* top:6px!important; */
 
     }
 
