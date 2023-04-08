@@ -154,10 +154,10 @@ top:170px;
   /* wider screens */
 
   #fatal-spacewalks {
-    /* margin-top:0px!important;
+    margin-top:0px!important;
     padding-top:0px!important;
-    top:-18px!important;
-    font-size: 84px!important; */
+    top:-14px!important;
+    font-size: 84px!important;
   }
 
   #crypto-canvas {
@@ -236,7 +236,7 @@ top:170px;
     }
     #hero-subtitle {
       position:relative;
-      top: -15px;
+      top: 0px;
       font-size: 24px;
     }
   }
@@ -335,6 +335,12 @@ top:170px;
   /* ******** medium screens ******************************************************** * */
   @media only screen and (min-width: 619px) and (max-width: 1399px){
     /* medium screens */
+
+    #fatal-spacewalks {
+
+      top:6px!important;
+
+    }
 
     #hero-subtitle {
       position:relative;
