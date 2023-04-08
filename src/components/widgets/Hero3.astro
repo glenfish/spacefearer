@@ -119,11 +119,11 @@ const {
                       {typeof callToAction2 === 'string' ? (
                         <Fragment set:html={callToAction2} />
                       ) : (
-                        <a
+                        <button
+                          onclick="scrollIntoViewWithOffset('#how-it-works-section', 70)"
                           id="how-it-works"
                           style="z-index:900"
                           class="btn w-full bg-gray-800/30 text-white hover:text-gray-800 dark:text-white"
-                          href={callToAction2?.href}
                         >
                           {callToAction2?.icon && (
                             <>
@@ -131,7 +131,7 @@ const {
                             </>
                           )}
                           {callToAction2.text}
-                        </a>
+                        </button>
                       )}
                     </div>
                   )
