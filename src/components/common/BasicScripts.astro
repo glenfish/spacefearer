@@ -247,3 +247,9 @@ import { SITE } from '~/config.mjs';
   //   }
   // });
 </script>
+
+<script is:inline>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+</script>
