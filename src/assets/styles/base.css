@@ -165,10 +165,8 @@ top:170px;
    }
 
   #fatal-spacewalks {
-    margin-top:0px!important;
-    padding-top:0px!important;
-    /* top:5px!important; */
-    font-size: 84px!important;
+    font-size: 84px;
+    letter-spacing:0px;
   }
 
   #crypto-canvas {
@@ -459,16 +457,11 @@ top:170px;
     width: 100%;
     }
   }
+
 /* ***************** small screens ******************************************************** */
 @media only screen and (max-width: 618px) {
   /* small screens */
 
-  #fatal-spacewalks-2 {
-    /* margin-top:0px!important;
-    padding-top:0px!important;
-    top:-5px!important; */
-
-  }
 
   #crypto-canvas {
     /* background-color: blue; */
@@ -583,20 +576,37 @@ top:170px;
 }
 #hero-title-2 { display:none; }
 #hero-subtitle-2 { display:none; }
-
-/* ********************************************************************************************************* */
-@media only screen and (max-width: 618px ) {
-  /* for font size changes for mobile */
+@media only screen and (min-width:470px) and (max-width:618px) {
   #hero-title-1 {
     display:none;
   }
   #hero-title-2 {
     display:block;
     position:relative;
-    top:-35px;
-    font-size: 50px!important;
-    line-height: 3.5rem!important;
+    top:-25px;
+    font-size: 4.0rem!important;
+    line-height: 3.8125rem!important;
   }
+}
+@media only screen and (min-width:0px) and (max-width:469px) {
+  #hero-title-1 {
+    display:none;
+  }
+  #hero-title-2 {
+    display:block;
+    position:relative;
+    top:-30px;
+    font-size: 3.0rem!important;
+    line-height: 2.5rem!important;
+    padding:0!important;
+    margin:0!important;
+  }
+}
+
+/* ********************************************************************************************************* */
+@media only screen and (max-width: 618px ) {
+  /* for font size changes for mobile */
+ 
 
   #hero-subtitle-1 {
     display:none;
@@ -612,28 +622,44 @@ top:170px;
   }
   #hero-subtitle {
     position:relative;
-    top: -50px;
+    top: -40px;
   }
   #dead-mans-switch {
     position:relative;
-    top: -84px;
+    top: -76px;
     max-width: 250px;
     margin: auto;
   }
   #how-it-works {
 
     position:relative;
-    top: -69px;
+    top: -65px;
     max-width: 250px;
     margin: auto;
   }
 
+  #fatal-spacewalks {
+
+    font-size: 82px;
+    position:relative;
+    top: -8px;
+  }
+
+  #fatal-spacewalks-2 {
+
+    font-size: 32px;
+  }
+}
     
 
-}
+
 
 @media only screen and (min-width: 464px) and (max-width: 639px ) {
 /* button placement */
+#fatal-spacewalks {
+  position:relative!important;
+  top:-25px!important;
+}
 #dead-mans-switch {
   position:relative;
   top: -60px;
