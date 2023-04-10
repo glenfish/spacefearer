@@ -133,7 +133,10 @@ top:170px;
 
 }
 
+#hero-title-1 {
+  font-size:85px;
 
+}
 
 #thetitle {
 
@@ -155,6 +158,11 @@ top:170px;
 /* ******** wider screens ******************************************************** * */  
 @media only screen and (min-width: 1536px) {
   /* wider screens */
+
+  #hero-title-1 {
+    font-size:110px!important;
+    line-height:100px;
+   }
 
   #fatal-spacewalks {
     margin-top:0px!important;
@@ -206,7 +214,7 @@ top:170px;
       position:relative;
       min-width: 950px!important;
       left: -300px;
-      top: 40px;
+      top: 0px;
       z-index: 4000;
     }
     .flex-container {
@@ -227,7 +235,7 @@ top:170px;
       border-radius: 40px;
       padding:20px;
     }
-    #protect-your-crypto {
+    #dead-mans-switch {
       position:relative;
       top: -15px;
       margin-right:40px;
@@ -247,7 +255,10 @@ top:170px;
 @media only screen and (min-width: 1400px) and (max-width: 1535px) {
   /* large screens */
 
-
+  #hero-title-1 {
+    font-size:90px!important;
+    line-height:85px;
+   }
 
   #crypto-canvas {
     /* background-color: blue; */
@@ -313,7 +324,7 @@ top:170px;
       border-radius: 40px;
       padding:20px;
     }
-    #protect-your-crypto {
+    #dead-mans-switch {
       position:relative;
       top: -12px;
       margin: 10px;
@@ -413,7 +424,7 @@ top:170px;
     left: -7px;
         
       }
-      #protect-your-crypto {
+      #dead-mans-switch {
         position:relative;
         top: -30px;
         margin: 10px;
@@ -426,8 +437,18 @@ top:170px;
       }
       
   }
+  @media only screen and (min-width: 768px) and (max-width:1399px) {
+    #hero-title-1 {
+     font-size:85px!important;
+     line-height:75px;
+     letter-spacing:-2px;
+    }
+  }
   @media only screen and (min-width: 619px) and (max-width:767px) {
-   
+   #hero-title-1 {
+    font-size:80px!important;
+    line-height:75px;
+   }
 
   #herosection {
     position:absolute;
@@ -593,7 +614,7 @@ top:170px;
     position:relative;
     top: -50px;
   }
-  #protect-your-crypto {
+  #dead-mans-switch {
     position:relative;
     top: -84px;
     max-width: 250px;
@@ -613,7 +634,7 @@ top:170px;
 
 @media only screen and (min-width: 464px) and (max-width: 639px ) {
 /* button placement */
-#protect-your-crypto {
+#dead-mans-switch {
   position:relative;
   top: -60px;
 }
